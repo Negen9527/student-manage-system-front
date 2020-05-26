@@ -1,5 +1,13 @@
 import request from '@/utils/request'
 
+export function register(data) {
+  return request({
+    url: '/user/create',
+    method: 'post',
+    data
+  })
+}
+
 export function login(data) {
   return request({
     url: '/login?username='+ data.username +'&password=' + data.password,
