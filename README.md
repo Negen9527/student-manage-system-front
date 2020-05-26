@@ -1,91 +1,69 @@
-# vue-admin-template
+## 学生信息管理系统
+[TOC]
+#### 零、基础
+项目为前后分离项目  
+1、前端(front-end)  
+- 基于 vue-admin-template 开发      
 
-English | [简体中文](./README-zh.md)
+2、后端(rear-end)    
+- Jdk8  
+- Maven3  
+- MySQL5.7  
+- SpringBoot2  
+- SQLYog  
 
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
-
-**Live demo:** http://panjiachen.github.io/vue-admin-template
-
-
-**The current version is `v4.0+` build on `vue-cli`. If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-admin-template/tree/tag/3.11.0), it does not rely on `vue-cli`**
-
-## Build Setup
+#### 一、功能模块图
+![图片.png](https://upload-images.jianshu.io/upload_images/16432686-d417effc03b21a81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
 
-# enter the project directory
-cd vue-admin-template
+#### 二、系统预览
+1、登录  
+![登录.png](https://upload-images.jianshu.io/upload_images/16432686-eb6208355eaa1b86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
 
-# install dependency
-npm install
+2、首页
+![首页.png](https://upload-images.jianshu.io/upload_images/16432686-e94528b9c1bccdb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-# develop
-npm run dev
-```
+3、查看学生信息
+![查看学生信息.png](https://upload-images.jianshu.io/upload_images/16432686-320483eb2c04817c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-This will automatically open http://localhost:9528
+4、编辑学生信息  
+![编辑学生信息.png](https://upload-images.jianshu.io/upload_images/16432686-bacd77743ff9b26c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-## Build
+5、删除学生信息  
+![删除学生信息.png](https://upload-images.jianshu.io/upload_images/16432686-93dc75297b4a611a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-```bash
-# build for test environment
-npm run build:stage
+6、添加学生信息
+![添加学生信息.png](https://upload-images.jianshu.io/upload_images/16432686-6a05e9d3b6a48706.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-# build for production environment
-npm run build:prod
-```
+7、查询学生信息  
+![查询学生信息.png](https://upload-images.jianshu.io/upload_images/16432686-e6d6f8480508e42c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-## Advanced
+8、修改个人信息  
+![修改个人信息.png](https://upload-images.jianshu.io/upload_images/16432686-16dfc1282a7b8e43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
-```bash
-# preview the release environment effect
-npm run preview
 
-# preview the release environment effect + static resource analysis
-npm run preview -- --report
+#### 三、源码获取 
+- 前端源码地址    
+https://github.com/Negen9527/student-manage-system-front  
 
-# code format check
-npm run lint
+- 后台源码地址  
+https://github.com/Negen9527/student-manage-system-rear  
 
-# code format check and auto fix
-npm run lint -- --fix
-```
 
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
+#### 四、运行代码  
+- 前端  
+1、git clone https://github.com/Negen9527/student-manage-system-front.git  
+2、cd student-manage-system-front  
+3、npm install  
+4、npm run dev  
+5、浏览器访问 http://localhost:9528  
 
-## Demo
+- 后台  
+1、git clone https://github.com/Negen9527/student-manage-system-rear.git  
+2、导入idea 等待maven依赖下载完成  
+3、创建数据库 db_stu_man_sys  
+4、修改项目配置文件中的数据库连接 账号、密码等相关配置  
+5、启动项目  
 
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
 
-## Extra
-
-If you want router permission && generate menu by user roles , you can use this branch [permission-control](https://github.com/PanJiaChen/vue-admin-template/tree/permission-control)
-
-For `typescript` version, you can use [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-
-## Related Project
-
-- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-- [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-- [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template)
-
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
-
-## Browsers support
-
-Modern browsers and Internet Explorer 10+.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
-
-## License
-
-[MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.
-
-Copyright (c) 2017-present PanJiaChen
