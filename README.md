@@ -18,8 +18,10 @@
 
 
 #### 二、系统预览
-1、登录  
-![登录.png](https://upload-images.jianshu.io/upload_images/16432686-eb6208355eaa1b86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)    
+1、登录及注册  
+![登录页面.png](https://upload-images.jianshu.io/upload_images/16432686-4f457147ce0a69d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![注册页面.png](https://upload-images.jianshu.io/upload_images/16432686-b1087b249f6b3b98.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 2、首页
 ![首页.png](https://upload-images.jianshu.io/upload_images/16432686-e94528b9c1bccdb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
@@ -43,7 +45,7 @@
 ![修改个人信息.png](https://upload-images.jianshu.io/upload_images/16432686-16dfc1282a7b8e43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
 
-#### 三、源码获取 
+#### 三、源码获取
 - 前端源码地址    
 https://github.com/Negen9527/student-manage-system-front  
 
@@ -65,5 +67,3 @@ https://github.com/Negen9527/student-manage-system-rear
 3、创建数据库 db_stu_man_sys  
 4、修改项目配置文件中的数据库连接 账号、密码等相关配置  
 5、启动项目  
-
-
